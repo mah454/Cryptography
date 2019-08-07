@@ -1,0 +1,4 @@
+rootProject.name = 'Cryptography'
+
+include 'deffie-hellman'
+include 'network-encryption'

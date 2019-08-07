@@ -1,0 +1,16 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+    }
+
+    sourceCompatibility = JavaVersion.VERSION_11
+
+    dependencies {
+    }
+
+}
